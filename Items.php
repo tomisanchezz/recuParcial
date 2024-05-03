@@ -1,5 +1,6 @@
 
 <?php
+
 class Items{
     private $cantVendida;
     private $refProducto;

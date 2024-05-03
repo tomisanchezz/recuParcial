@@ -1,5 +1,5 @@
 <?php
-include "Venta.php";
+include_once "Venta.php";
 class Tienda{
 
     private $nombre;
@@ -98,6 +98,7 @@ class Tienda{
                 $item = new Items($producto , $cantidadAVender);
                 $itemsVendidos[] = $item;
                 $venta = new Venta("6 enero", "Tomas", rand(), "comprobante c", $itemsVendidos);
+                $venta->incorporarProducto($productoEncontrado , $cantidadAVender); 
             } 
         }
 

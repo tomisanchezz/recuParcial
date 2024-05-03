@@ -2,7 +2,7 @@
 
 include "tienda.php";
 include "producto.php";
-include "Venta.php";
+
 
 $producto1 = new producto(0001,"Nike","negro","XXL","Remera",3);
 $producto2 = new producto(0002,"Adidas","rojo","XXL","Remera",10);

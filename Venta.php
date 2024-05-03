@@ -1,5 +1,5 @@
 <?php
-include "Items.php";
+include_once "Items.php";
 class venta{
 
     private $fecha;
